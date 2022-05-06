@@ -1,0 +1,5 @@
+const well = x => {
+  const sum = x.filter(x => x == 'good').length;
+  return sum < 1 ? 'Fail!' : 
+         sum < 3 ? 'Publish!' : 'I smell a series!';
+}
