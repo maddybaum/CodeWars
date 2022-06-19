@@ -1,0 +1,8 @@
+function getAllKeysAgain(obj, key) {
+  // create a keys variable
+  let keys = Object.keys(obj[key])
+  
+  return keys
+  // assign it to an expression which will generate an array of all of the keys located within obj at key
+  // return to the keys variable
+}
